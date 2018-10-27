@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const app = express();
 require('./config/config');
 require('./models/MongoDB');
-
+const port = process.env.PORT || 8080;
 
 // Middleware
 app.use(bodyParser.urlencoded({
@@ -21,4 +21,4 @@ app.use((req, res, next) => {
 });
 app.use(require('./routes/index'));
 // Listen
-app.listen(process.env.PORT);
+app.listen(port);
