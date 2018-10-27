@@ -1,0 +1,32 @@
+{
+  "name": "raizalcreole",
+  "version": "1.0.0",
+  "description": "Servicios web de la app raizalcreole",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marlonconrado1998/raizalcreole.git"
+  },
+  "author": "Marlon Conrado González",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marlonconrado1998/raizalcreole/issues"
+  },
+  "homepage": "https://github.com/marlonconrado1998/raizalcreole#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "crypto": "^1.0.1",
+    "express": "^4.16.4",
+    "gridfs-stream": "^1.1.1",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.3.7",
+    "mongoose-unique-validator": "^2.0.2",
+    "multer": "^1.4.1",
+    "multer-gridfs-storage": "^3.2.3",
+    "path": "^0.12.7",
+    "upper-case": "^1.1.3"
+  }
+}
