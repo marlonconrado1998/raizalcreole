@@ -1,5 +1,5 @@
 const express = require("express");
-const Etiqueta = require("../models/etiqueta");
+const Etiqueta = require("../models/Etiqueta");
 const mongoose = require('mongoose');
 var upperCase = require('upper-case');
 let fs = require('fs');
