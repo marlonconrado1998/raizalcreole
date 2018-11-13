@@ -11,7 +11,11 @@ const conn = mongoose.createConnection(process.env.MONGO_URI);
 
 var Response = require("../models/Response");
 const Articulo = require("../models/Articulo");
-var  { verifyToken } = require('../middlewares/authorization')
+const Autor = require('../models/Autor');
+
+var {
+    verifyToken
+} = require('../middlewares/authorization')
 
 
 conn.once('open', () => {
@@ -167,7 +171,8 @@ app.get('/articulos/:usuario', verifyToken, function (req, res) {
     }
 });
 
-app.post('/get_articulos', verifyToken, function (req, res) {
+// app.post('/get_articulos', verifyToken, function (req, res) {
+app.post('/get_articulos', function (req, res) {
 
     let response = new Response(res);
     let body = req.body.data;
@@ -247,5 +252,44 @@ app.post('/articulos_by_date', verifyToken, (req, res) => {
     } catch (error) {
         return response.INTERNAL_SERVER();
     }
-})
+});
+
+app.get('/detalle_articulo/:idarticulo', (req, res) => {
+
+    let response = new Response(res);
+    try {
+        let idarticulo = req.params.idarticulo;
+        Articulo
+            .find({
+                _id: idarticulo
+            }, (error, articulosDB) => {
+
+                if (error) return response.BAD_REQUEST("Error al consultar la DB.");
+
+
+                Autor.find({
+                    id: articulosDB[0].autor
+                }, (errorA, AutorDB) => {
+
+                    if (errorA) return response.BAD_REQUEST("Error al consultar la DB.");
+
+                    return response.OK({
+                        audio: articulosDB[0].audio,
+                        autor: AutorDB[0],
+                        contenido_cr: articulosDB[0].contenido_cr,
+                        contenido_en: articulosDB[0].contenido_en,
+                        contenido_es: articulosDB[0].contenido_es,
+                        etiquetas: articulosDB[0].etiquetas,
+                        fecha: articulosDB[0].fecha,
+                        multimedia: articulosDB[0].multimedia,
+                        id_: articulosDB[0]._id
+                    });
+                })
+            })
+            .select('etiquetas multimedia autor contenido_es contenido_en contenido_cr audio fecha')
+        limit(1);
+    } catch (error) {
+
+    }
+});
 module.exports = app;

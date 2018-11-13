@@ -12,7 +12,9 @@ var Response = require("../models/Response");
 const {
     GRAMATICA
 } = require('../config/constants');
-var  { verifyToken } = require('../middlewares/authorization')
+var {
+    verifyToken
+} = require('../middlewares/authorization')
 
 
 var upload = multer({
@@ -106,7 +108,8 @@ app.post('/etiqueta', verifyToken, function (req, res) {
 });
 
 
-app.post('/get_etiquetas', verifyToken, (req, res) => {
+// app.post('/get_etiquetas', verifyToken, (req, res) => {
+app.post('/get_etiquetas', (req, res) => {
 
     let body = req.body.data;
     let response = new Response(res);
@@ -139,7 +142,7 @@ app.post('/get_etiquetas', verifyToken, (req, res) => {
                 _id: '-1'
             })
             .select('contenido_es')
-            .limit(10)
+            .limit(100)
     } catch (error) {
         response.INTERNAL_SERVER();
     }
@@ -227,6 +230,24 @@ app.get('/gramatica', verifyToken, (req, res) => {
     } catch (error) {
         return response.INTERNAL_SERVER();
     }
+});
+
+app.get('/etiqueta_traducida/:etiqueta/:idioma', (req, res) => {
+
+    var response = new Response(res);
+    let query = {};
+    query[req.params.idioma] = req.params.etiqueta;
+
+    Etiqueta.findOne(query, function (error, etiquetaDB) {
+        if (error) {
+            return response.BAD_REQUEST("Error al consultar la BD");
+        }
+        if (!etiquetaDB) {
+            return response.NOT_FOUND()
+        };
+
+        return response.OK(etiquetaDB["contenido_cr"]);
+    }).select("contenido_cr contenido_en contenido_es");
 });
 
 module.exports = app;

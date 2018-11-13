@@ -6,6 +6,7 @@ module.exports = class ClassResponse {
 
     OK(data) {
         return this.response.status(200).json({
+            status: 200,
             ok: true,
             status_message: 'Ejecución exitosa.',
             data
@@ -24,11 +25,11 @@ module.exports = class ClassResponse {
         });
     }
 
-    NOT_FOUND(error) {
+    NOT_FOUND() {
         return this.response.status(404).json({
-            ok: false,
+            status: 404,
             status_message: 'No encontrado.',
-            error
+            data: null
         });
     }
 
