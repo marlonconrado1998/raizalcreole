@@ -26,7 +26,7 @@ module.exports = class ClassResponse {
     }
 
     NOT_FOUND() {
-        return this.response.status(404).json({
+        return this.response.status(200).json({
             status: 404,
             status_message: 'No encontrado.',
             data: null

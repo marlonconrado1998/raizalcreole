@@ -242,9 +242,9 @@ app.get('/etiqueta_traducida/:etiqueta/:idioma', (req, res) => {
         if (error) {
             return response.BAD_REQUEST("Error al consultar la BD");
         }
-        // if (!etiquetaDB) {
-        //     return response.NOT_FOUND()
-        // };
+        if (!etiquetaDB) {
+            return response.NOT_FOUND()
+        };
 
         return response.OK(etiquetaDB["contenido_cr"]);
     }).select("contenido_cr contenido_en contenido_es");
