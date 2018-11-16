@@ -6,7 +6,7 @@ const Autor = require("../models/Autor");
 var  { verifyToken } = require('../middlewares/authorization')
 
 
-app.get('/autor/:id', verifyToken, function (req, res) {
+app.get('/autor/:id', function (req, res) {
     
     var response = new Response(res);
     try {
@@ -22,7 +22,7 @@ app.get('/autor/:id', verifyToken, function (req, res) {
     }
 });
 
-app.put('/autor', verifyToken, function (req, res) {
+app.put('/autor', function (req, res) {
     
     var response = new Response(res);
     try {
@@ -54,7 +54,7 @@ app.put('/autor', verifyToken, function (req, res) {
     }
 });
 
-app.post('/autor', verifyToken, function (req, res) {
+app.post('/autor', function (req, res) {
     
     var response = new Response(res);
     try {
@@ -85,7 +85,7 @@ app.post('/autor', verifyToken, function (req, res) {
     }
 });
 
-app.get('/autores', verifyToken, function (req, res) {
+app.get('/autores', function (req, res) {
     
     var response = new Response(res);
     try {

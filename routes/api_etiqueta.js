@@ -79,7 +79,7 @@ app.delete('/image/:path/:id', (req, res) => {
     }
 })
 
-app.post('/etiqueta', verifyToken, function (req, res) {
+app.post('/etiqueta', function (req, res) {
 
     var response = new Response(res);
     try {
@@ -148,7 +148,7 @@ app.post('/get_etiquetas', (req, res) => {
     }
 });
 
-app.get('/etiquetas', verifyToken, function (req, res) {
+app.get('/etiquetas', function (req, res) {
 
     var response = new Response(res);
     try {
@@ -163,7 +163,7 @@ app.get('/etiquetas', verifyToken, function (req, res) {
     }
 });
 
-app.get('/etiquetas/:etiquetas', verifyToken, function (req, res) {
+app.get('/etiquetas/:etiquetas', function (req, res) {
 
     var response = new Response(res);
     try {
@@ -190,7 +190,7 @@ app.get('/etiquetas/:etiquetas', verifyToken, function (req, res) {
     }
 });
 
-app.put('/etiqueta', verifyToken, function (req, res) {
+app.put('/etiqueta', function (req, res) {
 
     var response = new Response(res);
     try {
@@ -222,7 +222,7 @@ app.put('/etiqueta', verifyToken, function (req, res) {
     }
 });
 
-app.get('/gramatica', verifyToken, (req, res) => {
+app.get('/gramatica', (req, res) => {
 
     var response = new Response(res);
     try {
