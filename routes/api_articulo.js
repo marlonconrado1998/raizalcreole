@@ -303,28 +303,42 @@ app.get('/cantidad_por_mes/:fecha_init/:fecha_end', (req, res) => {
             }
         }, (error, articulosDB) => {
             if (error) return response.BAD_REQUEST("Error al consultar la DB.");
-
-            let cant_por_mes = [];
+            
+            var cantpormes = new Array();
             for (let index in articulosDB) {
 
-                let articulo = articulosDB[index];
                 let item = {
-                    fecha: articulo.fecha.toLocaleString(),
+                    fecha: articulosDB[index].fecha,
                     cant: 1
+                };
+                if (cantpormes.length == 0) {
+                    cantpormes.push(item);
+                    continue;
                 }
-                console.log(articulo .fecha.toLocaleString().split('-'));
-                // if (cant_por_mes.length < 1) {
-                //     cant_por_mes.push(item)
-                // } else {
-                //     let finded = existeFecha(cant_por_mes, articulo.fecha);
-                //     if (finded) {
-                //         cant_por_mes.push(item);
-                //     } else {
-                //         finded.cant += 1;
-                //     }
-                // }
+
+                let iguales = false;
+                let valor = {};
+
+                for (let index2 in cantpormes) {
+                    
+                    let sf1 = articulosDB[index].fecha.toLocaleString();
+                    let sf2 = cantpormes[index2].fecha.toLocaleString(); 
+                    let af1 = sf1.split('-');
+                    let af2 = sf2.split('-');
+                    let ff1 = af1[0] + af1[1];
+                    let ff2 = af2[0] + af2[1];
+                    
+                    if (ff1 == ff2) {
+                        iguales = true;
+                        valor = cantpormes[index2];
+                        break;
+                    }
+                }
+
+                if (!iguales) cantpormes.push(item);
+                else valor.cant +=1;
             }
-            return response.OK(cant_por_mes);
+            return response.OK(cantpormes);
         })
         .sort({
             fecha: -1
@@ -332,30 +346,5 @@ app.get('/cantidad_por_mes/:fecha_init/:fecha_end', (req, res) => {
         .select('fecha');
 });
 
-let existeFecha = (array, fecha) => {
-    for (let index in array) {
-        let item = array[index];
-        console.log(item)
-        if (fechaEsigual(item.fecha, fecha)) {
-            return item;
-        }
-    }
-    return false;
-}
-
-
-let fechaEsigual = (fecha1, fecha2) => {
-
-    let af1 = fecha1.toLocaleString().split('-');
-    let af2 = fecha2.toLocaleString().split('-');
-    let f1f = `${af1[0]}-${af1[1]}`;
-    let f2f = `${af2[0]}-${af1[1]}`;
-
-    console.log(f1f, f2f);
-    if (f1f == f2f) {
-        return true;
-    }
-    return false;
-}
 
 module.exports = app;

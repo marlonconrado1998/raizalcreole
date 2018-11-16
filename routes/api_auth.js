@@ -14,7 +14,7 @@ app.post('/autentication', (req, res) => {
             rol: body.rol,
             urlAsig: body.urlAsig
         });
-        res.send('http://localhost/raizalcreole/#!/login?data=' + data +"&token="+ token);
+        res.send('http://69.175.103.163/~mconradog21/raizalcreole/#!/login?data=' + data +"&token="+ token);
     } catch (error) {
         response.INTERNAL_SERVER('Error interno del servidor.')
     }
