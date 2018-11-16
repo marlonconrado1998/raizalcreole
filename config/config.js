@@ -10,8 +10,8 @@
 // ===============
 
 
-process.env.MONGO_URI = 'mongodb://localhost:27017/traductorisys';
-
+process.env.MONGO_URI = 'mongodb://localhost:27017/traductorisys'; // Localhost
+process.env.MONGO_URI = 'mongodb://traductorIsys:traductorIsys1@ds133762.mlab.com:33762/traductorisys'; // Remote
 // ===============
 //  SESSION SECRET      
 // ===============
