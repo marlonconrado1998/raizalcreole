@@ -1,0 +1,1332 @@
+[
+    {
+        "contenido_cr": "ARIINJ",
+        "contenido_es": "NARANJA",
+        "contenido_en": "ORANJE"
+    },
+    {
+        "contenido_cr": "AIS",
+        "contenido_es": "HELADO",
+        "contenido_en": "ICE"
+    },
+    {
+        "contenido_cr": "ANS",
+        "contenido_es": "HORMIGA",
+        "contenido_en": "ANT"
+    },
+    {
+        "contenido_cr": "APL",
+        "contenido_es": "MANZANA",
+        "contenido_en": "APPLE"
+    },
+    {
+        "contenido_cr": "AI",
+        "contenido_es": "OJOS",
+        "contenido_en": "EYE"
+    },
+    {
+        "contenido_cr": "BORD",
+        "contenido_es": "PAJARO",
+        "contenido_en": "BIRD"
+    },
+    {
+        "contenido_cr": "BWAI",
+        "contenido_es": "NIÑO",
+        "contenido_en": "BOY"
+    },
+    {
+        "contenido_cr": "BAKS",
+        "contenido_es": "CAJA",
+        "contenido_en": "BOX"
+    },
+    {
+        "contenido_cr": "BUK",
+        "contenido_es": "LIBRO",
+        "contenido_en": "BOOK"
+    },
+    {
+        "contenido_cr": "CHIER",
+        "contenido_es": "SILLA",
+        "contenido_en": "CHAIR"
+    },
+    {
+        "contenido_cr": "CHORCH",
+        "contenido_es": "IGLESIA",
+        "contenido_en": "CHURCH"
+    },
+    {
+        "contenido_cr": "DAAG",
+        "contenido_es": "PERRO",
+        "contenido_en": "DOG"
+    },
+    {
+        "contenido_cr": "DOK",
+        "contenido_es": "PATO",
+        "contenido_en": "DUCK"
+    },
+    {
+        "contenido_cr": "DOPI",
+        "contenido_es": "FANTASMA",
+        "contenido_en": "GHOST"
+    },
+    {
+        "contenido_cr": "ELIFANT",
+        "contenido_es": "ELEFANTE",
+        "contenido_en": "ELEPHANT"
+    },
+    {
+        "contenido_cr": "EG",
+        "contenido_es": "HUEVO",
+        "contenido_en": "EGG"
+    },
+    {
+        "contenido_cr": "FUT",
+        "contenido_es": "PIES",
+        "contenido_en": "FOOT"
+    },
+    {
+        "contenido_cr": "FISH",
+        "contenido_es": "PESCADO",
+        "contenido_en": "FISH"
+    },
+    {
+        "contenido_cr": "FRAK",
+        "contenido_es": "VESTIDO",
+        "contenido_en": "DRESS"
+    },
+    {
+        "contenido_cr": "FRAI",
+        "contenido_es": "FRITO",
+        "contenido_en": "FRIED"
+    },
+    {
+        "contenido_cr": "GUAVA",
+        "contenido_es": "GUAYABA",
+        "contenido_en": "GUAVA"
+    },
+    {
+        "contenido_cr": "GLAAS",
+        "contenido_es": "VASO",
+        "contenido_en": "GLASS"
+    },
+    {
+        "contenido_cr": "GUOT",
+        "contenido_es": "CABRA",
+        "contenido_en": "GOAT"
+    },
+    {
+        "contenido_cr": "GITAR",
+        "contenido_es": "GUITARRA",
+        "contenido_en": "GUITAR"
+    },
+    {
+        "contenido_cr": "GIG",
+        "contenido_es": "TROMPO",
+        "contenido_en": "NULL"
+    },
+    {
+        "contenido_cr": "GIF",
+        "contenido_es": "REGALO",
+        "contenido_en": "GIFT"
+    },
+    {
+        "contenido_cr": "GYAL",
+        "contenido_es": "NIÑA",
+        "contenido_en": "GRILD"
+    },
+    {
+        "contenido_cr": "GYAALIK",
+        "contenido_es": "NULL",
+        "contenido_en": "NULL"
+    },
+    {
+        "contenido_cr": "HAN",
+        "contenido_es": "MANO",
+        "contenido_en": "HAND"
+    },
+    {
+        "contenido_cr": "HIIL",
+        "contenido_es": "BOTA",
+        "contenido_en": "NULL"
+    },
+    {
+        "contenido_cr": "HOUS",
+        "contenido_es": "CASA",
+        "contenido_en": "HOUSE"
+    },
+    {
+        "contenido_cr": "IER PLIEN",
+        "contenido_es": "AERO PLANO",
+        "contenido_en": "AIRPLANE"
+    },
+    {
+        "contenido_cr": "IRIESA",
+        "contenido_es": "NULL",
+        "contenido_en": "NULL"
+    },
+    {
+        "contenido_cr": "INSEK",
+        "contenido_es": "INSECTO",
+        "contenido_en": "INSECT"
+    },
+    {
+        "contenido_cr": "JUUS",
+        "contenido_es": "JUGO",
+        "contenido_en": "JUICE"
+    },
+    {
+        "contenido_cr": "JRUM",
+        "contenido_es": "TAMBOR",
+        "contenido_en": "DRUM"
+    },
+    {
+        "contenido_cr": "JELY",
+        "contenido_es": "NULL",
+        "contenido_en": "NULL"
+    },
+    {
+        "contenido_cr": "JOG",
+        "contenido_es": "JARRA",
+        "contenido_en": "NULL"
+    },
+    {
+        "contenido_cr": "KII",
+        "contenido_es": "LLAVE",
+        "contenido_en": "KEY"
+    },
+    {
+        "contenido_cr": "KITN",
+        "contenido_es": "GATO",
+        "contenido_en": "CAT"
+    },
+    {
+        "contenido_cr": "KAIT",
+        "contenido_es": "COMETA",
+        "contenido_en": "KITE"
+    },
+    {
+        "contenido_cr": "KEKL",
+        "contenido_es": "NULL",
+        "contenido_en": "NULL"
+    },
+    {
+        "contenido_cr": "LIM",
+        "contenido_es": "RAMA",
+        "contenido_en": "NULL"
+    },
+    {
+        "contenido_cr": "LIIF",
+        "contenido_es": "HOJA",
+        "contenido_en": "SHEET"
+    },
+    {
+        "contenido_cr": "LIPS",
+        "contenido_es": "LABIOS",
+        "contenido_en": "LIPS"
+    },
+    {
+        "contenido_cr": "LAMP",
+        "contenido_es": "LAMPARA",
+        "contenido_en": "LAMP"
+    },
+    {
+        "contenido_cr": "LAG",
+        "contenido_es": "TRONCO",
+        "contenido_en": "NULL"
+    },
+    {
+        "contenido_cr": "MUUN",
+        "contenido_es": "LUNA",
+        "contenido_en": "MOON"
+    },
+    {
+        "contenido_cr": "MOG",
+        "contenido_es": "TAZA",
+        "contenido_en": "NULL"
+    },
+    {
+        "contenido_cr": "MONY",
+        "contenido_es": "DINERO",
+        "contenido_en": "MONEY"
+    },
+    {
+        "contenido_cr": "NIIGL",
+        "contenido_es": "AGUJA",
+        "contenido_en": "NEEDLE"
+    },
+    {
+        "contenido_cr": "NES",
+        "contenido_es": "NIDO",
+        "contenido_en": "NEST"
+    },
+    {
+        "contenido_cr": "NAIF",
+        "contenido_es": "CUCHILLO",
+        "contenido_en": "KNIFE"
+    },
+    {
+        "contenido_cr": "OUL",
+        "contenido_es": "BUHO",
+        "contenido_en": "OWL"
+    },
+    {
+        "contenido_cr": "ONYAN",
+        "contenido_es": "NULL",
+        "contenido_en": "NULL"
+    },
+    {
+        "contenido_cr": "OP",
+        "contenido_es": "ARRIBA",
+        "contenido_en": "UP"
+    },
+    {
+        "contenido_cr": "OMBRELA",
+        "contenido_es": "SOMBRILLA",
+        "contenido_en": "UMBRELLA"
+    },
+    {
+        "contenido_cr": "PUS",
+        "contenido_es": "NULL",
+        "contenido_en": "NULL"
+    },
+    {
+        "contenido_cr": "PIER",
+        "contenido_es": "PERA",
+        "contenido_en": "PEAR"
+    },
+    {
+        "contenido_cr": "PAIP",
+        "contenido_es": "PIPA",
+        "contenido_en": "PIPE"
+    },
+    {
+        "contenido_cr": "PIG",
+        "contenido_es": "CERDO",
+        "contenido_en": "PIG"
+    },
+    {
+        "contenido_cr": "PAT",
+        "contenido_es": "OLLA",
+        "contenido_en": "POT"
+    },
+    {
+        "contenido_cr": "RUOBOT",
+        "contenido_es": "ROBOT",
+        "contenido_en": "ROBOT"
+    },
+    {
+        "contenido_cr": "RUOZ",
+        "contenido_es": "ROSA",
+        "contenido_en": "ROSE"
+    },
+    {
+        "contenido_cr": "RABIT",
+        "contenido_es": "CONEJO",
+        "contenido_en": "RABBIT"
+    },
+    {
+        "contenido_cr": "SIZAZ",
+        "contenido_es": "TIJERA",
+        "contenido_en": "NULL"
+    },
+    {
+        "contenido_cr": "SON",
+        "contenido_es": "SOL",
+        "contenido_en": "NULL"
+    },
+    {
+        "contenido_cr": "SUUP",
+        "contenido_es": "SOPA",
+        "contenido_en": "SOUP"
+    },
+    {
+        "contenido_cr": "SAKS",
+        "contenido_es": "MEDIA",
+        "contenido_en": "SOCK"
+    },
+    {
+        "contenido_cr": "TOP",
+        "contenido_es": "NULL",
+        "contenido_en": "NULL"
+    },
+    {
+        "contenido_cr": "TRIANGL",
+        "contenido_es": "TRIANGULO",
+        "contenido_en": "TRIANGLE"
+    },
+    {
+        "contenido_cr": "TIEBL",
+        "contenido_es": "MEZA",
+        "contenido_en": "TABLE"
+    },
+    {
+        "contenido_cr": "UMAN",
+        "contenido_es": "MUJER",
+        "contenido_en": "WOMAN"
+    },
+    {
+        "contenido_cr": "VEJITEBL",
+        "contenido_es": "VEGETALES",
+        "contenido_en": "VEGETABLES"
+    },
+    {
+        "contenido_cr": "VASELIIN",
+        "contenido_es": "VASELINA",
+        "contenido_en": "VASELINE"
+    },
+    {
+        "contenido_cr": "VINIGA",
+        "contenido_es": "VINAGRE",
+        "contenido_en": "VINEGAR"
+    },
+    {
+        "contenido_cr": "WAATA",
+        "contenido_es": "AGUA",
+        "contenido_en": "WATER"
+    },
+    {
+        "contenido_cr": "WIIL",
+        "contenido_es": "RUEDA",
+        "contenido_en": "WHEEL"
+    },
+    {
+        "contenido_cr": "YONGY",
+        "contenido_es": "NULL",
+        "contenido_en": "NULL"
+    },
+    {
+        "contenido_cr": "YUUKA",
+        "contenido_es": "YUCA",
+        "contenido_en": "NULL"
+    },
+    {
+        "contenido_cr": "YAAM",
+        "contenido_es": "ÑAME",
+        "contenido_en": "NULL"
+    },
+    {
+        "contenido_cr": "YAAD",
+        "contenido_es": "PATIO",
+        "contenido_en": "YARD"
+    },
+    {
+        "contenido_cr": "DA",
+        "contenido_es": "ESO",
+        "contenido_en": "THAT"
+    },
+    {
+        "contenido_cr": "WAN",
+        "contenido_es": "UNO",
+        "contenido_en": "ONE"
+    },
+    {
+        "contenido_cr": "TIICH",
+        "contenido_es": "ENSEÑAR",
+        "contenido_en": "TEACH"
+    },
+    {
+        "contenido_cr": "PIPL",
+        "contenido_es": "GENTE",
+        "contenido_en": "PEOPLE"
+    },
+    {
+        "contenido_cr": "FI",
+        "contenido_es": "A",
+        "contenido_en": "NULL"
+    },
+    {
+        "contenido_cr": "DAANS",
+        "contenido_es": "BAILAR",
+        "contenido_en": "DANCE"
+    },
+    {
+        "contenido_cr": "ENY",
+        "contenido_es": "CUALQUIER",
+        "contenido_en": "ANY"
+    },
+    {
+        "contenido_cr": "TAIM",
+        "contenido_es": "TIEMPO",
+        "contenido_en": "TIME"
+    },
+    {
+        "contenido_cr": "IHN",
+        "contenido_es": "QUE",
+        "contenido_en": "NULL"
+    },
+    {
+        "contenido_cr": "GET",
+        "contenido_es": "CONSEGUIR",
+        "contenido_en": "GET"
+    },
+    {
+        "contenido_cr": "DI",
+        "contenido_es": "ÉL",
+        "contenido_en": "HE"
+    },
+    {
+        "contenido_cr": "CHAAMS",
+        "contenido_es": "OPORTUNIDAD",
+        "contenido_en": "CHANCE"
+    },
+    {
+        "contenido_cr": "WI",
+        "contenido_es": "NOSOTROS",
+        "contenido_en": "WE"
+    },
+    {
+        "contenido_cr": "DAT",
+        "contenido_es": "ESO",
+        "contenido_en": "THAT"
+    },
+    {
+        "contenido_cr": "PLIE",
+        "contenido_es": "JUGAR",
+        "contenido_en": "PLAY"
+    },
+    {
+        "contenido_cr": "PLAT",
+        "contenido_es": "TRENZAR",
+        "contenido_en": "PLAIT"
+    },
+    {
+        "contenido_cr": "PAAT",
+        "contenido_es": "LUGAR",
+        "contenido_en": "PLACE"
+    },
+    {
+        "contenido_cr": "SHAIN",
+        "contenido_es": "BRILLAR",
+        "contenido_en": "SHINE"
+    },
+    {
+        "contenido_cr": "GUT",
+        "contenido_es": "BUENO",
+        "contenido_en": "GOOD"
+    },
+    {
+        "contenido_cr": "NAIS",
+        "contenido_es": "BIEN",
+        "contenido_en": "NICE"
+    },
+    {
+        "contenido_cr": "HAV",
+        "contenido_es": "TENER",
+        "contenido_en": "HAVE"
+    },
+    {
+        "contenido_cr": "PRAIS",
+        "contenido_es": "PRECIO",
+        "contenido_en": "PRICE"
+    },
+    {
+        "contenido_cr": "BETA",
+        "contenido_es": "MEJOR",
+        "contenido_en": "BEST"
+    },
+    {
+        "contenido_cr": "TINGS",
+        "contenido_es": "COSAS",
+        "contenido_en": "THING"
+    },
+    {
+        "contenido_cr": "NEVA",
+        "contenido_es": "NUNCA",
+        "contenido_en": "NEVER"
+    },
+    {
+        "contenido_cr": "TEK",
+        "contenido_es": "COGER",
+        "contenido_en": "TAKE"
+    },
+    {
+        "contenido_cr": "TIL",
+        "contenido_es": "HASTA",
+        "contenido_en": "TILL"
+    },
+    {
+        "contenido_cr": "GAAN",
+        "contenido_es": "FUI",
+        "contenido_en": "NULL"
+    },
+    {
+        "contenido_cr": "GRANY",
+        "contenido_es": "ABUELA",
+        "contenido_en": "GRANDMA"
+    },
+    {
+        "contenido_cr": "DIES",
+        "contenido_es": "DÍA",
+        "contenido_en": "DAY"
+    },
+    {
+        "contenido_cr": "DONG",
+        "contenido_es": "ABAJO",
+        "contenido_en": "DOWN"
+    },
+    {
+        "contenido_cr": "SKWIIZ",
+        "contenido_es": "EXPRIMIR",
+        "contenido_en": "SQUEEZE"
+    },
+    {
+        "contenido_cr": "NEKS",
+        "contenido_es": "SIGUIENTE",
+        "contenido_en": "NEXT"
+    },
+    {
+        "contenido_cr": "LONCH",
+        "contenido_es": "ALMUERZO",
+        "contenido_en": "LUNCH"
+    },
+    {
+        "contenido_cr": "GRANFAADA",
+        "contenido_es": "ABUELO",
+        "contenido_en": "GRANDFATHER"
+    },
+    {
+        "contenido_cr": "GRONG",
+        "contenido_es": "TERRENO",
+        "contenido_en": "GROUND"
+    },
+    {
+        "contenido_cr": "KLAIM",
+        "contenido_es": "TREPAR",
+        "contenido_en": "CLIMB"
+    },
+    {
+        "contenido_cr": "PAN",
+        "contenido_es": "ENCIMA",
+        "contenido_en": "NULL"
+    },
+    {
+        "contenido_cr": "TRII",
+        "contenido_es": "ARBOL",
+        "contenido_en": "TREE"
+    },
+    {
+        "contenido_cr": "MUO",
+        "contenido_es": "MÁS",
+        "contenido_en": "MORE"
+    },
+    {
+        "contenido_cr": "KER",
+        "contenido_es": "LLEVAR",
+        "contenido_en": "CARRY"
+    },
+    {
+        "contenido_cr": "DEM",
+        "contenido_es": "LOS",
+        "contenido_en": "NULL"
+    },
+    {
+        "contenido_cr": "MEK",
+        "contenido_es": "HACER",
+        "contenido_en": "MAKE"
+    },
+    {
+        "contenido_cr": "SOM",
+        "contenido_es": "ALGUNOS",
+        "contenido_en": "SOME"
+    },
+    {
+        "contenido_cr": "BICAAZ",
+        "contenido_es": "PORQUE",
+        "contenido_en": "BECAUSE"
+    },
+    {
+        "contenido_cr": "MEK",
+        "contenido_es": "HACER",
+        "contenido_en": "NULL"
+    },
+    {
+        "contenido_cr": "MUMA",
+        "contenido_es": "MAMÁ",
+        "contenido_en": "MOTHER"
+    },
+    {
+        "contenido_cr": "GI",
+        "contenido_es": "DAR",
+        "contenido_en": "GIVE"
+    },
+    {
+        "contenido_cr": "NIEBA",
+        "contenido_es": "VECINOS",
+        "contenido_en": "NEIGHNOR"
+    },
+    {
+        "contenido_cr": "LAIK",
+        "contenido_es": "GUSTAR",
+        "contenido_en": "LIKE"
+    },
+    {
+        "contenido_cr": "SEL",
+        "contenido_es": "VENDER",
+        "contenido_en": "SELL"
+    },
+    {
+        "contenido_cr": "AKS",
+        "contenido_es": "PREGUNTAR",
+        "contenido_en": "ASK"
+    },
+    {
+        "contenido_cr": "SUUN",
+        "contenido_es": "TEMPRANO",
+        "contenido_en": "SOON"
+    },
+    {
+        "contenido_cr": "KRAS",
+        "contenido_es": "CRUZAR",
+        "contenido_en": "CROSS"
+    },
+    {
+        "contenido_cr": "RUOD",
+        "contenido_es": "CALLE",
+        "contenido_en": "ROAD"
+    },
+    {
+        "contenido_cr": "FRAM",
+        "contenido_es": "DESDE",
+        "contenido_en": "FROM"
+    },
+    {
+        "contenido_cr": "BOS",
+        "contenido_es": "BUS",
+        "contenido_en": "BUS"
+    },
+    {
+        "contenido_cr": "FAAS",
+        "contenido_es": "RÁPIDO",
+        "contenido_en": "FAST"
+    },
+    {
+        "contenido_cr": "LOV",
+        "contenido_es": "AMOR",
+        "contenido_en": "LOVE"
+    },
+    {
+        "contenido_cr": "BRED",
+        "contenido_es": "PAN",
+        "contenido_en": "BREAD"
+    },
+    {
+        "contenido_cr": "GI MI",
+        "contenido_es": "DAME",
+        "contenido_en": "GIVE ME"
+    },
+    {
+        "contenido_cr": "LIKL",
+        "contenido_es": "PEQUEÑO",
+        "contenido_en": "LITTLE"
+    },
+    {
+        "contenido_cr": "FREN",
+        "contenido_es": "AMIGOS",
+        "contenido_en": "FRIENDS"
+    },
+    {
+        "contenido_cr": "DOMPLIN",
+        "contenido_es": "MASA",
+        "contenido_en": "DUMPLING"
+    },
+    {
+        "contenido_cr": "KRAB SUUP",
+        "contenido_es": "SOPA DE CANGREJO",
+        "contenido_en": "CRAB SOUP"
+    },
+    {
+        "contenido_cr": "SKUUL BAS",
+        "contenido_es": "BUS ESCOLAR",
+        "contenido_en": "SCHOOL BUS"
+    },
+    {
+        "contenido_cr": "HOF",
+        "contenido_es": "CASCO",
+        "contenido_en": "HOOF"
+    },
+    {
+        "contenido_cr": "HAAS",
+        "contenido_es": "CABALLO",
+        "contenido_en": "HORSE"
+    },
+    {
+        "contenido_cr": "KABIN",
+        "contenido_es": "CABINA",
+        "contenido_en": "CABIN"
+    },
+    {
+        "contenido_cr": "YUNIVERSITY",
+        "contenido_es": "UNIVERSIDAD",
+        "contenido_en": "UNIVERSITY"
+    },
+    {
+        "contenido_cr": "RIILY ",
+        "contenido_es": "REALIDAD",
+        "contenido_en": "REALITY"
+    },
+    {
+        "contenido_cr": "UOL",
+        "contenido_es": "VIEJO",
+        "contenido_en": "OLD"
+    },
+    {
+        "contenido_cr": "FYUE",
+        "contenido_es": "POCOS",
+        "contenido_en": "FEW"
+    },
+    {
+        "contenido_cr": "UOVA",
+        "contenido_es": "MUY",
+        "contenido_en": "VERY"
+    },
+    {
+        "contenido_cr": "BAAS",
+        "contenido_es": "JEFE",
+        "contenido_en": "BOSS"
+    },
+    {
+        "contenido_cr": "PROFESHONAL",
+        "contenido_es": "PROFESSIONAL",
+        "contenido_en": "PROFESIONAL"
+    },
+    {
+        "contenido_cr": "WAAK",
+        "contenido_es": "CAMINAR",
+        "contenido_en": "WALK"
+    },
+    {
+        "contenido_cr": "AANTI",
+        "contenido_es": "TIA",
+        "contenido_en": "AUNTY"
+    },
+    {
+        "contenido_cr": "PRAVIDENCE",
+        "contenido_es": "PROVIDENCIA",
+        "contenido_en": "PROVIDENCE"
+    },
+    {
+        "contenido_cr": "A HAV",
+        "contenido_es": "TENGO",
+        "contenido_en": "I HAVE"
+    },
+    {
+        "contenido_cr": "TAI",
+        "contenido_es": "CORBATA",
+        "contenido_en": "TIE"
+    },
+    {
+        "contenido_cr": "PARAT",
+        "contenido_es": "LORO",
+        "contenido_en": "PARROT"
+    },
+    {
+        "contenido_cr": "PIKTJURE",
+        "contenido_es": "ILUSTRACION/PINTURA",
+        "contenido_en": "PICTURES"
+    },
+    {
+        "contenido_cr": "PIIS",
+        "contenido_es": "PAZ",
+        "contenido_en": "PEACE"
+    },
+    {
+        "contenido_cr": "BAAK",
+        "contenido_es": "LADRAR",
+        "contenido_en": "BARK"
+    },
+    {
+        "contenido_cr": "PRITY",
+        "contenido_es": "PRETTY",
+        "contenido_en": "BONITO"
+    },
+    {
+        "contenido_cr": "RON",
+        "contenido_es": "CORRER",
+        "contenido_en": "RUN"
+    },
+    {
+        "contenido_cr": "TUDDE",
+        "contenido_es": "HOY",
+        "contenido_en": "TODAY"
+    },
+    {
+        "contenido_cr": "SON",
+        "contenido_es": "SOL",
+        "contenido_en": "SUN"
+    },
+    {
+        "contenido_cr": "TUU",
+        "contenido_es": "DEMASIADO",
+        "contenido_en": "TOO"
+    },
+    {
+        "contenido_cr": "HAT",
+        "contenido_es": "CALIENTE",
+        "contenido_en": "HOT"
+    },
+    {
+        "contenido_cr": "KUOL",
+        "contenido_es": "FRIO",
+        "contenido_en": "COLD"
+    },
+    {
+        "contenido_cr": "SIEL",
+        "contenido_es": "VELA",
+        "contenido_en": "SAILS"
+    },
+    {
+        "contenido_cr": "RIID",
+        "contenido_es": "LEER",
+        "contenido_en": "READ"
+    },
+    {
+        "contenido_cr": "RAID",
+        "contenido_es": "ESCRIBIR",
+        "contenido_en": "WRITE"
+    },
+    {
+        "contenido_cr": "POO",
+        "contenido_es": "POBRE",
+        "contenido_en": "POOR"
+    },
+    {
+        "contenido_cr": "RIEN",
+        "contenido_es": "LLOVIENDO",
+        "contenido_en": "RAIN"
+    },
+    {
+        "contenido_cr": "BIEBI",
+        "contenido_es": "BEBE",
+        "contenido_en": "BABY"
+    },
+    {
+        "contenido_cr": "SHOVE",
+        "contenido_es": "EMPUJÓN",
+        "contenido_en": "SHOB/SHUB"
+    },
+    {
+        "contenido_cr": "PUOK",
+        "contenido_es": "CERDO",
+        "contenido_en": "PORK"
+    },
+    {
+        "contenido_cr": "MIGL",
+        "contenido_es": "MEDIO",
+        "contenido_en": "MIDGLE"
+    },
+    {
+        "contenido_cr": "MOUT",
+        "contenido_es": "BOCA",
+        "contenido_en": "MOUTH"
+    },
+    {
+        "contenido_cr": "NYUUZ",
+        "contenido_es": "NOTICIA",
+        "contenido_en": "NEWS"
+    },
+    {
+        "contenido_cr": "TINGK",
+        "contenido_es": "PENSAR",
+        "contenido_en": "THINK"
+    },
+    {
+        "contenido_cr": "FIEVA",
+        "contenido_es": "FAVOR",
+        "contenido_en": "FAVOUR"
+    },
+    {
+        "contenido_cr": "FIES",
+        "contenido_es": "CARA",
+        "contenido_en": "FACE"
+    },
+    {
+        "contenido_cr": "PLEJA",
+        "contenido_es": "PLACER",
+        "contenido_en": "PLEAUSURE"
+    },
+    {
+        "contenido_cr": "CHRUU",
+        "contenido_es": "CIERTO",
+        "contenido_en": "TRUE"
+    },
+    {
+        "contenido_cr": "CHIENJ",
+        "contenido_es": "CAMBIO",
+        "contenido_en": "CHANGE"
+    },
+    {
+        "contenido_cr": "BELY",
+        "contenido_es": "VIENTRE",
+        "contenido_en": "BELLY"
+    },
+    {
+        "contenido_cr": "WAADROUB",
+        "contenido_es": "GUARDARROPA",
+        "contenido_en": "WARDROBE"
+    },
+    {
+        "contenido_cr": "JAKIT",
+        "contenido_es": "CHAQUETA",
+        "contenido_en": "JACKET"
+    },
+    {
+        "contenido_cr": "PIKNING",
+        "contenido_es": "NIÑOS",
+        "contenido_en": "CHLDREN"
+    },
+    {
+        "contenido_cr": "LAAN",
+        "contenido_es": "APRENDER",
+        "contenido_en": "LEARN"
+    },
+    {
+        "contenido_cr": "SHIEM",
+        "contenido_es": "VERGÜENZA",
+        "contenido_en": "SHAME"
+    },
+    {
+        "contenido_cr": "BEACH",
+        "contenido_es": "PLAYA",
+        "contenido_en": "BEACHES"
+    },
+    {
+        "contenido_cr": "PASIBL",
+        "contenido_es": "POSIBLE",
+        "contenido_en": "POSSIBLE"
+    },
+    {
+        "contenido_cr": "HAAT",
+        "contenido_es": "RAMA",
+        "contenido_en": "BRANCH"
+    },
+    {
+        "contenido_cr": "PAAS",
+        "contenido_es": "PASAR",
+        "contenido_en": "PASSING"
+    },
+    {
+        "contenido_cr": "KOW",
+        "contenido_es": "VACA",
+        "contenido_en": "COW"
+    },
+    {
+        "contenido_cr": "TOMBL",
+        "contenido_es": "CAIDA",
+        "contenido_en": "TUMBLE"
+    },
+    {
+        "contenido_cr": "DED",
+        "contenido_es": "MUERTO",
+        "contenido_en": "DEAD"
+    },
+    {
+        "contenido_cr": "UOPN",
+        "contenido_es": "ABRIR",
+        "contenido_en": "OPEN"
+    },
+    {
+        "contenido_cr": "BAK",
+        "contenido_es": "ATRÁS",
+        "contenido_en": "BACK"
+    },
+    {
+        "contenido_cr": "LETA",
+        "contenido_es": "CARTA",
+        "contenido_en": "LETTER"
+    },
+    {
+        "contenido_cr": "DIFEND",
+        "contenido_es": "DEFENDER",
+        "contenido_en": "DEFEND"
+    },
+    {
+        "contenido_cr": "DRES",
+        "contenido_es": "VESTIDO",
+        "contenido_en": "DRESSED"
+    },
+    {
+        "contenido_cr": "KIEK",
+        "contenido_es": "PASTEL",
+        "contenido_en": "CAKE"
+    },
+    {
+        "contenido_cr": "A NYAM",
+        "contenido_es": "COMIÓ",
+        "contenido_en": "I ATE"
+    },
+    {
+        "contenido_cr": "ANADA",
+        "contenido_es": "OTROS",
+        "contenido_en": "ANOTHER"
+    },
+    {
+        "contenido_cr": "ANDASTAN",
+        "contenido_es": "ENTENDER",
+        "contenido_en": "UNDERSTANDS"
+    },
+    {
+        "contenido_cr": "SOMTING",
+        "contenido_es": "ALGUNA COSA",
+        "contenido_en": "SOMETHING"
+    },
+    {
+        "contenido_cr": "WICH",
+        "contenido_es": "CUAL",
+        "contenido_en": "WHICH"
+    },
+    {
+        "contenido_cr": "AILANT",
+        "contenido_es": "ISLA",
+        "contenido_en": "ISLAND"
+    },
+    {
+        "contenido_cr": "INVIZIBL",
+        "contenido_es": "INVISIBLE",
+        "contenido_en": "INVISIBLE"
+    },
+    {
+        "contenido_cr": "INFLUENS",
+        "contenido_es": "INFLUENCIA",
+        "contenido_en": "INFLUENCED"
+    },
+    {
+        "contenido_cr": "ALSUO",
+        "contenido_es": "ADEMÁS",
+        "contenido_en": "ALSO"
+    },
+    {
+        "contenido_cr": "RIESIS",
+        "contenido_es": "RACISTA",
+        "contenido_en": "RACIST"
+    },
+    {
+        "contenido_cr": "ALWIES",
+        "contenido_es": "SIEMPRE",
+        "contenido_en": "ALWAYS"
+    },
+    {
+        "contenido_cr": "TAAK",
+        "contenido_es": "HABLAR",
+        "contenido_en": "TALK"
+    },
+    {
+        "contenido_cr": "SII",
+        "contenido_es": "VER",
+        "contenido_en": "SEE"
+    },
+    {
+        "contenido_cr": "KALA",
+        "contenido_es": "COLOR",
+        "contenido_en": "COLOR"
+    },
+    {
+        "contenido_cr": "RUUSTA",
+        "contenido_es": "GALLO",
+        "contenido_en": "ROOSTER"
+    },
+    {
+        "contenido_cr": "HIA",
+        "contenido_es": "ESCUCHADO",
+        "contenido_en": "HEARD"
+    },
+    {
+        "contenido_cr": "BUOT",
+        "contenido_es": "BARCO",
+        "contenido_en": "BOAT"
+    },
+    {
+        "contenido_cr": "IIVNIN",
+        "contenido_es": "NOCHE",
+        "contenido_en": "EVENING"
+    },
+    {
+        "contenido_cr": "STUORY",
+        "contenido_es": "CUENTOS",
+        "contenido_en": "STORIES"
+    },
+    {
+        "contenido_cr": "JIANT",
+        "contenido_es": "GIGANTE",
+        "contenido_en": "GIANT"
+    },
+    {
+        "contenido_cr": "HED",
+        "contenido_es": "CABEZA",
+        "contenido_en": "HEAD"
+    },
+    {
+        "contenido_cr": "TRUUT",
+        "contenido_es": "VERDAD",
+        "contenido_en": "THUTH"
+    },
+    {
+        "contenido_cr": "NONBADY",
+        "contenido_es": "NADIE",
+        "contenido_en": "ANYBODY"
+    },
+    {
+        "contenido_cr": "NOWE",
+        "contenido_es": "NINGUNA PARTE",
+        "contenido_en": "ANYWHERE"
+    },
+    {
+        "contenido_cr": "SOM",
+        "contenido_es": "ALGUNOS",
+        "contenido_en": "SOME"
+    },
+    {
+        "contenido_cr": "EVRY",
+        "contenido_es": "CADA",
+        "contenido_en": "EVERY"
+    },
+    {
+        "contenido_cr": "SIDONG",
+        "contenido_es": "SIENTATÉ",
+        "contenido_en": "SIT DOWN"
+    },
+    {
+        "contenido_cr": "TEL",
+        "contenido_es": "CONTAR",
+        "contenido_en": "TELL"
+    },
+    {
+        "contenido_cr": "WOK",
+        "contenido_es": "TRABAJO",
+        "contenido_en": "WORK"
+    },
+    {
+        "contenido_cr": "KWESTION",
+        "contenido_es": "PREGUNTA",
+        "contenido_en": "QUESTION"
+    },
+    {
+        "contenido_cr": "PORSON",
+        "contenido_es": "PERSONA",
+        "contenido_en": "PERSON"
+    },
+    {
+        "contenido_cr": "AARAIT",
+        "contenido_es": "DE ACUERDO",
+        "contenido_en": "ALL RIGTH"
+    },
+    {
+        "contenido_cr": "NOF",
+        "contenido_es": "SUFICIENTE",
+        "contenido_en": "ENOUGH"
+    },
+    {
+        "contenido_cr": "YESIDEI",
+        "contenido_es": "AYER",
+        "contenido_en": "YESTERDAY"
+    },
+    {
+        "contenido_cr": "STODY",
+        "contenido_es": "ESTUDIAR",
+        "contenido_en": "STUDY"
+    },
+    {
+        "contenido_cr": "JAB",
+        "contenido_es": "TRABAJO",
+        "contenido_en": "JOB"
+    },
+    {
+        "contenido_cr": "BATAM",
+        "contenido_es": "FONDO",
+        "contenido_en": "BOTTOM"
+    },
+    {
+        "contenido_cr": "SKEIL",
+        "contenido_es": "ESCAMA",
+        "contenido_en": "SCALE"
+    },
+    {
+        "contenido_cr": "WORS",
+        "contenido_es": "PEOR",
+        "contenido_en": "WORST"
+    },
+    {
+        "contenido_cr": "LAAF",
+        "contenido_es": "RISA",
+        "contenido_en": "LAUGH"
+    },
+    {
+        "contenido_cr": "LIV",
+        "contenido_es": "VIVIR",
+        "contenido_en": "LIVE"
+    },
+    {
+        "contenido_cr": "FAA",
+        "contenido_es": "LEJOS",
+        "contenido_en": "FAR"
+    },
+    {
+        "contenido_cr": "PLIET",
+        "contenido_es": "PLATO",
+        "contenido_en": "PLATE"
+    },
+    {
+        "contenido_cr": "PIERANS",
+        "contenido_es": "PADRES",
+        "contenido_en": "PARENTS"
+    },
+    {
+        "contenido_cr": "MISHAN",
+        "contenido_es": "MISIÓN",
+        "contenido_en": "MISSION"
+    },
+    {
+        "contenido_cr": "HONGRY",
+        "contenido_es": "HAMBRE",
+        "contenido_en": "HUNGRY"
+    },
+    {
+        "contenido_cr": "LIEDIE",
+        "contenido_es": "DAMA",
+        "contenido_en": "LADY"
+    },
+    {
+        "contenido_cr": "CHIIZ",
+        "contenido_es": "QUESO",
+        "contenido_en": "CHEESE"
+    },
+    {
+        "contenido_cr": "JELO",
+        "contenido_es": "AMARILLO",
+        "contenido_en": "YELLOW"
+    },
+    {
+        "contenido_cr": "TUMARA",
+        "contenido_es": "MAÑANA",
+        "contenido_en": "TOMORROW"
+    },
+    {
+        "contenido_cr": "SATIDIE",
+        "contenido_es": "SABADO",
+        "contenido_en": "SATURDAY"
+    },
+    {
+        "contenido_cr": "MIITIN",
+        "contenido_es": "REUNIÓN",
+        "contenido_en": "MEETING"
+    },
+    {
+        "contenido_cr": "WIET",
+        "contenido_es": "ESPERAR",
+        "contenido_en": "WAITING"
+    },
+    {
+        "contenido_cr": "HARD",
+        "contenido_es": "ESCONDER",
+        "contenido_en": "HIDING"
+    },
+    {
+        "contenido_cr": "YUUZALY",
+        "contenido_es": "SOLÍA",
+        "contenido_en": "USUALLY"
+    },
+    {
+        "contenido_cr": "ERO",
+        "contenido_es": "ERROR",
+        "contenido_en": "ERROR"
+    }
+]
