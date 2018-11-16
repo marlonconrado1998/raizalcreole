@@ -32,7 +32,7 @@ let textos = new Schema({
     },
     gramatica: [{
         type: String,
-        required: [true, "gramática es requerida"],
+        // required: [true, "gramática es requerida"],
         trim: true,
         enum: GRAMATICA 
     }],

@@ -1,5 +1,6 @@
 const express = require("express");
 const Etiqueta = require("../models/Etiqueta");
+const EtiquetaSolicitada = require("../models/EtiquetaSolicitada");
 const mongoose = require('mongoose');
 var upperCase = require('upper-case');
 let fs = require('fs');
@@ -15,6 +16,8 @@ const {
 var {
     verifyToken
 } = require('../middlewares/authorization')
+
+const data = require('../config/data.json');
 
 
 var upload = multer({
@@ -243,11 +246,33 @@ app.get('/etiqueta_traducida/:etiqueta/:idioma', (req, res) => {
             return response.BAD_REQUEST("Error al consultar la BD");
         }
         if (!etiquetaDB) {
+            let etiquetaSOl = new EtiquetaSolicitada({
+                nombre: req.params.etiqueta
+            });
+            etiquetaSOl.save();
             return response.NOT_FOUND()
         };
 
         return response.OK(etiquetaDB["contenido_cr"]);
     }).select("contenido_cr contenido_en contenido_es");
+});
+
+app.post('/carga_masiva', (req, res) => {
+    try {
+        var response = new Response(res);
+        for (let index in data) {
+            new Etiqueta({
+                contenido_es: data[index].contenido_es,
+                contenido_en: data[index].contenido_en,
+                contenido_cr: data[index].contenido_cr,
+            }).save((error, resp) => {
+                if (!error) return response.BAD_REQUEST(null);
+            });
+        }
+        return response.OK(true);
+    } catch (error) {
+        return response.INTERNAL_SERVER(error);
+    }
 });
 
 module.exports = app;
