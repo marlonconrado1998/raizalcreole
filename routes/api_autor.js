@@ -10,8 +10,8 @@ app.get('/autor/:id', function (req, res) {
     
     var response = new Response(res);
     try {
-        var id = new mongoose.mongo.ObjectId(req.params.id);
-        Autor.findById(id, function (error, autorDB) {
+        // var id = new mongoose.mongo.ObjectId(req.params.id);
+        Autor.findById(req.params.id, function (error, autorDB) {
             if (error) {
                 return Response.BAD_REQUEST("Error al consultar la BD");
             }
