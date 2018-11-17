@@ -8,6 +8,8 @@ var  { verifyToken } = require('../middlewares/authorization')
 
 app.get('/autor/:id', function (req, res) {
     
+
+    return response.OK({nombre: "Marlon"});
     var response = new Response(res);
     try {
         // var id = new mongoose.mongo.ObjectId(req.params.id);
